@@ -4,6 +4,7 @@ const PricingSectionWrapper = styled.div`
     padding: 90px 0 108px 0;
     overflow: hidden;
     position: relative;
+    margin-top: 5%;
     .section__particle{
         position: absolute;
         &.one{
@@ -126,6 +127,7 @@ const PricingSectionWrapper = styled.div`
         }
     }
     @media only screen and (max-width: 480px) {
+        margin-top: 50px;
         .pricing-block{
             margin: 0 15px 40px 15px;
             padding: 40px 15px 35px 15px;

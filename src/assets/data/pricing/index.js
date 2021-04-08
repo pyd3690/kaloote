@@ -7,20 +7,20 @@ const data = {
     pricings: [
       {
         thumb: imgPricing1,
-        name: 'Basic Plan',
-        price: '$50.25',
-        description: 'Lorem ipsum dolor sit amet consectetur elit, sed.',
+        name: 'Free Plan',
+        price: 'Free',
+        description: 'Access All basic content',
         link: '#',
-        btnText: 'Get Package',
+        btnText: 'Continue with Free Plan',
         services:[
             {
-                content: 'Push Notification.',
+                content: 'Blog Posts',
                 className: '--on'
             },
             {
-                content: 'Offline Synchronization.',
+                content: 'Posted Studies',
                 className: '--on'
-            },
+            }/* ,
             {
                 content: 'SQL Database.',
                 className: '--on'
@@ -32,9 +32,9 @@ const data = {
             {
                 content: '24/7 Supports.',
                 className: '--off'
-            }
+            } */
         ]
-      },{
+      },/* {
         thumb: imgPricing2,
         name: 'Standard Plan',
         price: '$75.00',
@@ -63,35 +63,73 @@ const data = {
                 className: '--off'
             }
         ]
-      },
+      }, */
       {
-        thumb: imgPricing3,
+        thumb: imgPricing2,
         name: 'Premium Plan',
-        price: '$99.99',
-        description: 'Lorem ipsum dolor sit amet consectetur elit, sed.',
+        price: '$9.99',
+        description: 'Advanced Content Access',
         link: '#',
-        btnText: 'Get Package',
+        btnText: 'Go Premium',
         services:[
             {
-                content: 'Push Notification.',
+                content: 'Blog Posts',
                 className: '--on'
             },
             {
-                content: 'Offline Synchronization.',
+                content: 'Posted Studies',
                 className: '--on'
             },
             {
-                content: 'SQL Database.',
+                content: 'Reseach Data',
                 className: '--on'
             },
             {
-                content: 'Speech & Text Analytics.',
+                content: 'Data Vizualization',
                 className: '--on'
-            },
+            }/*,
+            {
+                content: '',
+                className: ''
+            } ,
             {
                 content: '24/7 Supports.',
                 className: '--on'
-            }
+            } */
+        ]
+      },
+      {
+        thumb: imgPricing3,
+        name: 'Enterprise Plan',
+        price: 'Request',
+        description: 'Consulting',
+        link: '#',
+        btnText: 'Contact Us to Get an Estimate',
+        services:[
+            {
+                content: 'Blog Posts',
+                className: '--on'
+            },
+            {
+                content: 'Posted Studies',
+                className: '--on'
+            },
+            {
+                content: 'Reseach Data',
+                className: '--on'
+            },
+            {
+                content: 'Data Vizualization',
+                className: '--on'
+            },
+            {
+                content: 'Custom Report',
+                className: '--on'
+            }/* ,
+            {
+                content: '24/7 Supports.',
+                className: '--on'
+            } */
         ]
       }
       

@@ -18,6 +18,7 @@ import Getapp from "sections/Getapp";
 import Contact from "sections/Contact";
 import Footer from "sections/Footer";
 import FooterClassic from "sections/Footer-classic";
+import SubscribePremium from "sections/Subscribe-premium"
 
 import { GlobalStyle } from "sections/app.style";
 import theme from "theme/app/themeStyles";
@@ -30,6 +31,7 @@ const Home = () => (
       {/* <Banner /> */}
       <About />
       <News />
+      <SubscribePremium />
       <Integrations />
       <Contact />
       <Footer />

@@ -19,9 +19,10 @@ const Pricing = () => {
       <img className="section__particle two" src={particle2} alt="img" />
       <Container>
         <SectionTitle UniWidth="65%">
-          <h4>Pricing Table</h4>
+          {/* <br/><br/> */}
+          {/* <h4>Pricing Table</h4> */}
           <h2>
-            <span>Choose your best plan </span> For adorable pricing history.
+            <span> Our Content Access Plans </span> 
           </h2>
         </SectionTitle>
         <Row>

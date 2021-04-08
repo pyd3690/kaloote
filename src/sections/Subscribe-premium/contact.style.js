@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const ContactWrapper = styled.div`
     
-    padding: 100px 0 50px 0;
+    padding: 50px 0 50px 0;
     overflow: hidden;
     align-items: center;
     form{
@@ -10,10 +10,8 @@ const ContactWrapper = styled.div`
         text-align: center;
         /*background: #fbfbfb;*/
         display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 100px;
         border-radius: 10px;
     }
     input{
@@ -23,56 +21,23 @@ const ContactWrapper = styled.div`
         height: 60px;
         font-size: 16px;
         border-radius: 5px;
-        
         margin: 0 auto 0px auto;
         box-shadow: none;
         transition: 450ms all;
-        border: 1px solid ;
+        border: 1px solid transparent;
         &:hover,&:focus{
             border-color: rgba(251,123,129, 1);
         }
-        margin-bottom: 15px;
-    }
-    select{
-        display: block;
-        padding: 15px;
-        width: 80%;
-        height: 60px;
-        font-size: 16px;
-        border-radius: 5px;
-        margin: 0 auto 0px auto;
-        box-shadow: none;
-        transition: 450ms all;
-        border: 1px solid ;
-        &:hover,&:focus{
-            border-color: rgba(251,123,129, 1);
-        }
-        margin-bottom: 15px;
-    }
-    textarea{
-        display: block;
-        padding: 15px;
-        width: 80%;
-        height: 200px;
-        font-size: 16px;
-        border-radius: 5px;
-        margin: 0 auto 0px auto;
-        box-shadow: none;
-        transition: 450ms all;
-        border: 1px solid ;
-        &:hover,&:focus{
-            border-color: rgba(251,123,129, 1);
-        }
-        margin-bottom: 15px;
     }
     button{
         transition: 450ms all;
-        background: #f9a826;
-        color: black;
+        background: #F9A826;
+        color: white;
         font-size: 16px;
         height: 58px;
+        border-radius: 15px;
         &:hover{
-            background: #FB7B81;
+            background: blue;
             color: #fff;
         }
     }
@@ -104,7 +69,7 @@ const ContactWrapper = styled.div`
     @media only screen and (max-width: 480px) {
         form{
             padding: 30px 15px;
-            input, select, textarea{
+            input{
                 width: 100%;
             }
         }

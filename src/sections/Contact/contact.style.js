@@ -8,7 +8,7 @@ const ContactWrapper = styled.div`
     form{
         text-align: center;
         text-align: center;
-        background: #fbfbfb;
+        /*background: #fbfbfb;*/
         display: flex;
         align-items: center;
         justify-content: center;
@@ -24,19 +24,19 @@ const ContactWrapper = styled.div`
         margin: 0 auto 0px auto;
         box-shadow: none;
         transition: 450ms all;
-        border: 1px solid transparent;
+        border: 1px solid ;
         &:hover,&:focus{
             border-color: rgba(251,123,129, 1);
         }
     }
     button{
         transition: 450ms all;
-        background: #FFEBEC;
-        color: #FB7B81;
+        background: #F9A826;
+        color: black;
         font-size: 16px;
         height: 58px;
         &:hover{
-            background: #FB7B81;
+            background: blue;
             color: #fff;
         }
     }

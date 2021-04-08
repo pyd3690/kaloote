@@ -44,7 +44,7 @@ const AboutSectionWrapper = styled.div`
       justify-content: center;
       align-items: center;
       border-radius: 5px;
-      background: ${(props) => props.theme.primaryColor};
+      background: #f7be6a /*${(props) => props.theme.primaryColor}*/;
 
       h4 {
         font-size: 23px;
@@ -66,10 +66,10 @@ const AboutSectionWrapper = styled.div`
       width: 65%;
       height: 20px;
       border-radius: 30px;
-      background: rgb(71, 48, 135);
+      background: #F9A826;
       background: linear-gradient(
         90deg,
-        rgba(71, 48, 135, 1) 0%,
+        #F9A826 0%,
         rgba(115, 52, 205, 1) 100%
       );
       z-index: 1;

@@ -11,7 +11,7 @@ import theme from "theme/blog/themeStyles";
 
 const Home = () => (
   <ThemeProvider theme={theme}>
-    <Main title="Appion React Gatsby nextjs landing">
+    <Main title="Blog Post">
       <GlobalStyle />
       <Navigation />
       <BlogSinglePage />

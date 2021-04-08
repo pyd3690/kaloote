@@ -18,6 +18,7 @@ const Contact = () => {
       </SectionTitle>
       <Container>
         <form name="contactform" method="post" action="#">
+          <input type="text" placeholder="Enter your Name" /> 
           <input type="email" placeholder="Enter your Email" />
           
           <select id="country" name="country">

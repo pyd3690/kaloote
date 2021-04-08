@@ -15,6 +15,8 @@ import theme from "theme/blog/themeStyles";
 const Home = () => {
   const router = useRouter()
   const { cat } = router.query
+  try {
+    
   var categorieName = cat.charAt(0).toUpperCase() + cat.slice(1)
   if(cat.indexOf("-") !== -1) {
     var words = cat.split("-")
@@ -35,6 +37,19 @@ const Home = () => {
       <Footer />
     </Main>
   </ThemeProvider>
+  }
+  catch(e){
+    return <ThemeProvider theme={theme}>
+  <Main title="Kaloote - Blog">
+    <GlobalStyle />
+    <Navigation />
+    <BlogPage title={"Kaloote " + " Blog Posts"}/>
+    <Contact />
+    <Footer />
+  </Main>
+</ThemeProvider>
+
+  }
 };
 
 export default Home;

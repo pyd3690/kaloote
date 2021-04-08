@@ -1,4 +1,5 @@
 import React from "react";
+import Link from 'next/link';
 
 import { Container } from "reusecore/Layout";
 import SectionTitle from "reusecore/SectionTitle";
@@ -16,8 +17,12 @@ const SubscribePremium = () => {
         </h2>
       </SectionTitle>
       <Container>
-        <form name="contactform" method="post" action="/pricing">
-          <Button>Subscribe</Button>
+        <form name="contactform" >
+          <Link href="/pricing">
+            <a>
+            <Button>Subscribe</Button>
+            </a>            
+          </Link>
         </form>
       </Container>
     </ContactWrapper>
